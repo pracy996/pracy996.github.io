@@ -1,31 +1,31 @@
 let monthChart = document.getElementById('monthChart').getContext('2d');
 
-let Chart4 = new Chart(monthChart, {
+let Chart5 = new Chart(monthChart, {
   type: 'bar',
   data: {
      labels: ["Week 1", "Week 2", "Week 3", "Week 4",],
      datasets: [{
-         data: [198, 310, 348],
+         data: [198, 310, 348, 290 ],
          label: "Printforce",
          borderColor: "#3e95cd",
          backgroundColor:'#ff4d4d',
          fill: false
        }, {
-         data: [58, 106, 108],
+         data: [58, 106, 108, 77],
          label: "Wee/Hero",
          borderColor: "#8e5ea2",
          backgroundColor:'#3366ff',
          fill: false
        },
        {
-         data: [350, 1835],
+         data: [350, 1835, 1370],
          label: "Stand Books",
          borderColor: "#8e5ea2",
          backgroundColor:'#ffff4d',
          fill: false
        },
        {
-         data: [60, 2400],
+         data: [60, 2400, 812],
          label: "Prem Books",
          borderColor: "#8e5ea2",
          backgroundColor:'#00e600',

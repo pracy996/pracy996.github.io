@@ -1,17 +1,17 @@
-let week3Chart = document.getElementById('week3Chart').getContext('2d');
+let week4Chart = document.getElementById('week4Chart').getContext('2d');
 
-let Chart3 = new Chart(week3Chart, {
+let Chart4 = new Chart(week4Chart, {
   type: 'bar',
   data: {
      labels: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
      datasets: [{
-         data: [41, 68, 118, 58],
+         data: [67, 83, 140],
          label: "Printforce",
          borderColor: "#3e95cd",
          backgroundColor:'#ff4d4d',
          fill: false
        }, {
-         data: [24, 22, 27, 32],
+         data: [23, 28, 26],
          label: "Wee/Hero",
          borderColor: "#8e5ea2",
          backgroundColor:'#3366ff',
@@ -22,7 +22,7 @@ let Chart3 = new Chart(week3Chart, {
    options: {
      title: {
        display: true,
-       text: 'Jobs Despatched W/E 26-01-18'
+       text: 'Jobs Despatched W/E 31-01-18'
      }
    }
   })
